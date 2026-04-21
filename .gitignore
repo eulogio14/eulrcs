@@ -1,0 +1,33 @@
+# --- IDEs y Editores (JetBrains / VS Code) ---
+.idea/
+.vscode/
+*.swp
+*.patch
+
+# --- C++ / Servidor ---
+server/cmake-build-*/
+server/bin/
+server/obj/
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# --- Frontend / React (Vite + TS) ---
+client/node_modules/
+client/dist/
+client/dist-ssr/
+client/*.local
+client/.eslintcache
+
+# --- Base de Datos / Logs ---
+*.log
+*.sql.gz
+*.dump
+.env
+.env.local
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
